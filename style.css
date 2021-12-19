@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    min-height: 100px;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.columnCenter {
+    display: inline-block;
+    padding: 15px;
+}
+
+label {
+    float: left;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+.col {
+    display: inline-block;
+    width: 45%;
+}
+
+p {
+    font-size: 7em;
+}
+
+
+body{
+    
+    /*background-color: rgb(11, 248, 217);*/
+    background-image: linear-gradient(to right, purple,red,yellow);
+}
+
+
+
+button.player {
+    min-height: 45px;
+    width: 50%;
+    border: 1px solid rgb(235, 62, 9);
+    font-size: 20px;
+    color: rgb(7, 86, 92);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+button.player:hover {
+    background: #75f864;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+button.reset {
+    height: 55px;
+    width: 200px;
+    outline: none;
+    border-radius: 110px;
+    background-color: white;
+    border: 1px solid rgb(158, 10, 84);
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+button.reset:hover {
+    
+    border: 1px solid rgb(13, 15, 11);
+    background-color: red;
+    transition: 0.3s ease;
+}
+
+.winner {
+    color: white;
+}
