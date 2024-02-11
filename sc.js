@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (p2Score === scoreLimit) {
                 p2.classList.add("winner");
                 gameOver = true;
-          document.getElementById("Player 1 winner").innerHTML
+          document.getElementById("Player 1 winner")
 
             }
             p2.innerHTML = p2Score;
